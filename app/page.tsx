@@ -12,11 +12,14 @@ export default function Home() {
         Light Bulb Switch 💡
       </h1>
 
-      {/* Bulb */}
-      <div
-        className={`w-40 h-40 rounded-full mb-8 transition-all duration-300 
-        ${isOn ? "bg-yellow-400 shadow-[0_0_60px_20px_rgba(255,255,0,0.7)]" : "bg-gray-400"}`}
-      ></div>
+      {/* Bulb Image */}
+<img
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZkpMAxDYEDPpSnDfrPLtMpGBJjISWF7te6RkkLorIQ&s"
+  alt="Light Bulb"
+  width={200}
+  height={200}
+  className="rounded-full transition-all duration-300"
+/>
 
       {/* Button */}
       <button
