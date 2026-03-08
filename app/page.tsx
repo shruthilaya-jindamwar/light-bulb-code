@@ -12,7 +12,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-8">Light Bulb 💡</h1>
 
       {/* Bulb Image */}
-      <Image
+      <img
         src="https://media.istockphoto.com/id/494251010/photo/light-bulb.jpg?s=612x612&w=0&k=20&c=XxHOsnlt-Qfe4XnMxILdQNDZYF43tJw1JgrbTupvma4="
         alt="Light Bulb"
         width={200}
